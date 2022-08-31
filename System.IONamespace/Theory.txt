@@ -1,0 +1,37 @@
+﻿System.IO .NET classes
+* File, FileInfo
+* Directory, DirectoryInfo
+* Path
+
+File, FileInfo
+* Provide methods for creating, copying, deleting, moving and opening of files
+* FileInfo: provides instance methods
+* File: provides static methods
+
+File, FileInfo methods:
+* Create()
+* Copy()
+* Delete()
+* Exists()
+* GetAttributes()
+* Move()
+* ReadAllText()
+
+Directory, DirectoryInfo
+* Directory: provides static methods
+* DirectoryInfo: provides instance methods
+
+Directory, DirectoryInfo methods:
+* CreateDirectory()
+* Delete()
+* Exists()
+* GetCurrentDirectory()
+* GetFiles()
+* Move()
+* GetLogicalDrives()
+
+Path methods:
+* GetDirectoryName()
+* GetFileName()
+* GetExtension()
+* GetTempPath()
